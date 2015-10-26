@@ -1,0 +1,83 @@
+.butt {
+    font-family: "Courier New";
+	color: white;
+	background-color: black;
+    cursor: pointer;
+	height: 65px;
+	width: 80px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 60px;
+}
+
+.butt: hover {
+   background-color: black;
+    color: white;
+}
+
+.backStart {
+	font-family: "Courier New";
+	color: white;
+	background-color: black;
+    height: 650px;
+    width: 800px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -2px 2px 5px purple;
+	font-weight: bold;
+}
+
+.endFinish {
+	font-family: "Courier New";
+	color: white;
+	background-color: black;
+    height: 650px;
+    width: 800px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -2px 2px 5px purple;
+	font-weight: bold;
+}
+
+.background    { background: url('http://s3.amazonaws.com/everystockphoto/fspid31/31/20/07/3/tileable-classic-nebula-3120073-o.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url('http://vignette4.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f4/Electricity.gif/revision/latest?cb=20130820223236') center; 
+					background-size: 50px 50px; }
+.wall          { background: url('http://designstacks.net/content_images/AdobePhotoshop/DrawingTechniques/metal/metal5.jpg');   }
+.eye  { background: url('eye.png') center; 
+		background-size: 28px, 28px; }
+.spike {background: linear-gradient(#7A0000, red) center;
+		border-radius: 25px; }
+.spike2 { background: linear-gradient(#7A0000, red) center;
+		border-radius: 25px; }
+.actor  { position: absolute;  }
+.coin   { background: url('2.png') no-repeat center center;
+			background-size: 22px 22px;}
+.player { background: url('astro.png') center; 
+			background-size: 45px 54px; }
+.enemy { background: url('1.png') no-repeat center; 
+			background-size: 30px 40px; }
+.enemy2 { background: url('3.png') no-repeat center; 
+			background-size: 30px 40px; }
+			
+.game {
+  overflow: hidden;
+  max-width: 800px;
+  max-height: 650px;
+  position: relative;
+}
+
+.lost .player {
+    box-shadow: -4px -7px 8px red, 4px -7px 8px red;
+	background-color: red;
+}
+
+
+.won .player {
+  box-shadow: -4px -7px 8px lightBlue, 4px -7px 8px lightBlue;
+  background-color: lightBlue;
+}
